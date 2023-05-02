@@ -1,29 +1,7 @@
-import { useState } from "react"
+import { Navbar } from "./components/Navbar"
 
 function Portfolio() {
-
-const [counter, setCounter]= useState(0)
-
-
-const sums = ( ) =>{
-  console.log(counter)
-  setCounter(counter + 1)
-}
-
-if(true){
-    setTimeout(()=>{
-        sums()
-      },1000) 
-}
-
-
-  return (
-    <>
-      {
-        counter
-      }
-    </>
-  )
+<Navbar/>
 }
 
 export default Portfolio
