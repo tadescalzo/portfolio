@@ -1,10 +1,12 @@
-import React from 'react'
+
 import ReactDOM from 'react-dom/client'
-import './style.css'
-import Portfolio from './Portfolio.jsx'
+import './styles/style.css'    
+import { BrowserRouter } from 'react-router-dom'
+import { AppRouter } from './router/AppRouter'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Portfolio />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <AppRouter  />
+  </BrowserRouter>
 )
