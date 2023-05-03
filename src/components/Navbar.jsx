@@ -1,22 +1,20 @@
-import { Link, NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 export const Navbar = () => {
   return (
     <nav className="navbar">
+      <ul className="navbar--left center">
+        <li><a className="resetLinks button2" href="#">Github</a></li>
+      </ul>
       <Link 
-      className="navbar--left resetLinks"
+      className="navbar--center resetLinks"
       to='/'
       >
         TaDes
       </Link>
-      <div className="navbar--right resetLinks">
-        <NavLink 
-        className='navbar--right__link'
-        to='/contacto'
-        >
-          Contacto
-        </NavLink>
-      </div>
+      <ul className="navbar--right center">
+        <li><a className="resetLinks button1" href="#">Linkedin</a></li>
+      </ul>
     </nav>
   )
 }
