@@ -10,7 +10,7 @@ export const Navbar = () => {
       className="navbar--center resetLinks"
       to='/'
       >
-        TaDes
+        Tades
       </Link>
       <ul className="navbar--right center">
         <li><a className="resetLinks button1" href="#">Linkedin</a></li>
