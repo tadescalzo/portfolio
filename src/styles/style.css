@@ -139,6 +139,37 @@ main {
   height: 50%;
   background: linear-gradient(to right, #42312c, #301c1e);
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.content--article__title {
+  font-weight: 700;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+.content--article__lower {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  display: flex;
+}
+.content--article__lower .articleInfo {
+  width: 50%;
+  height: 100%;
+  padding: 0 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content--article__lower .articleList {
+  list-style: none;
+  height: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 footer {

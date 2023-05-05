@@ -142,6 +142,37 @@ background: linear-gradient(0deg, rgba(99,56,56,1) 0%, rgba(55,29,29,1) 20%, rgb
         height: 50%;
         background: linear-gradient(to right, #42312c, #301c1e);
         border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        &__title{
+            font-weight: 700;
+            margin-top: 1rem;
+            font-size: 1.2rem;
+        }
+        &__lower{
+            width: 100%;
+            height: 100%;
+            background-color: red;
+            display: flex;
+            .articleInfo{
+                width: 50%;
+                height: 100%;
+                padding: 0 4rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .articleList{
+                list-style: none;
+                height: 100%;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+            }
+        }
     }
 }
 
