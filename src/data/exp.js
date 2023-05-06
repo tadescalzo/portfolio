@@ -33,7 +33,7 @@ export const exp = [
     },
     {
         "lugar": 'Escuela DevRock',
-        "titulo": 'Frontend developer',
+        "titulo": 'Frontend (React)',
         "tareas": 'Aca van los temas estudiados',
         "inicio": '06/2021',
         "finalizacion": '06/2022',
@@ -41,7 +41,7 @@ export const exp = [
     },
     {
         "lugar": 'Udemy',
-        "titulo": 'Frontend developer',
+        "titulo": 'Frontend (MERN)',
         "tareas": 'Tareas del puesto',
         "inicio": '06/2022',
         "finalizacion": 'Actualidad',

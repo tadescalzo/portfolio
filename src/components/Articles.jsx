@@ -6,8 +6,8 @@ export const Articles = () => {
     <article className="content--article">
         <h5 className="content--article__title">Experiencia y educacion</h5>
         <div className="content--article__lower">
-            <Article  type={'estudio'}/>
             <Article  type={'trabajo'}/>
+            <Article  type={'estudio'}/>
         </div>
     </article>
   )

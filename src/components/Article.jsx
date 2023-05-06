@@ -1,15 +1,19 @@
-import { faCircleNodes } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {exp} from '../data/exp'
+import { ListItem } from './ListItem'
 
+
+// eslint-disable-next-line react/prop-types
 export const Article = ({type}) => {
 
-    console.log(exp)
+   const iterable = exp.filter(item=> item.tipo == type)
+    
     return (
         <section className="articleInfo">
                     <h5>Experiencia</h5>
                     <ul className="articleList">
-                        <li><FontAwesomeIcon icon={faCircleNodes}/> Trabajo 1</li>
+                    {
+                        iterable.map(item=> <ListItem key={item.titulo} item={item} /> )
+                    }
                     </ul>
         </section>
     )
