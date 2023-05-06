@@ -1,10 +1,10 @@
-import { Article } from "./Article"
+import { Articles } from "./Articles"
 
 export const Info = () => {
   return (
     <main className="center">
       <div className="noise"></div>
-      <Article/>
+      <Articles />
     </main>
   )
 }
